@@ -1,0 +1,69 @@
+/* 1 page */
+.container{
+    margin: 0 160px;
+}
+/* header */
+.header{ /* верхняя полоска( её фон)*/
+    background-color: #373A3C;
+    height: 60px;
+}
+.header_line{ /* размещение по вертикали в полоске*/
+    display: flex;
+}
+.header_title1{ /* первый текст и его настройки */
+    color: #fff;
+    padding-top: 21px;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.arrow{ /* стрелочки */
+    padding-top: 19px;
+    padding-right: 25px;
+}
+.header_logo{ /* logo */
+    padding-top: 15px;
+    padding-right: 300px;
+}
+.header_title2{ /* второй текст и его настройки */
+    padding-top: 21px;
+    padding-right: 25px;
+    padding-left: -15px;
+    color: #FFFFFF80;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.border_Search{ /* бортики поисковика*/
+    margin: 4px;
+}
+li{
+    list-style-type: none; /* Убираем маркер */
+    outline: none;
+}
+.border_se{ /* белые квадрат*/
+    padding: 16px 19px;
+    border-radius: 4px;
+}
+.human{ /* человечек*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 21px;
+} 
+/* body */
+.body { /* род элемент и настройки*/
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 644px;
+}
+.fon {
+    background-image: url("/assets/img/Star-Wars-Battlefront-II-combat.png");
+     /* фото не ставится((((*/ 
+     /* вообще ни как(((( */ 
